@@ -1,3 +1,5 @@
-from test_chat import execute
+import test_chat
+import test_my_site
 
-execute()
+test_my_site.execute()
+test_chat.execute()
